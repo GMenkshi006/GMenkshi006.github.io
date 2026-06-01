@@ -1,21 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Discover Albania</title>
+  <meta charset="UTF-8">
+  <title>Discover Albania</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #d90429, #ef233c);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    .header p {
+      font-size: 18px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #d90429;
+      margin-top: 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #d90429;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #a1031f;
+    }
+  </style>
+
 </head>
 
 <body>
 
-<h1>Discover Albania</h1>
+  <div class="header">
+    <h1>Discover Albania 🇦🇱</h1>
+    <p>Mountains • Beaches • History • Culture</p>
+  </div>
 
-<h2>About Albania</h2>
-<p>Albania is a country in Southeast Europe known for its mountains, beaches, history, and culture.</p>
+  <div class="container">
 
-<h2>Tourism</h2>
-<p>Popular destinations include Ksamil, Berat, Gjirokaster, and Theth.</p>
+    <div class="card">
+      <h2>About Albania</h2>
+      <p>
+        Albania is a hidden gem in Southeast Europe known for its stunning coastline,
+        beautiful mountains, rich history, and welcoming culture.
+      </p>
+    </div>
 
-<h2>Food</h2>
-<p>Traditional Albanian foods include byrek, tavë kosi, and fërgesë.</p>
+    <div class="card">
+      <h2>Top Destinations</h2>
+      <p>
+        Explore Ksamil’s turquoise beaches, the historic city of Berat,
+        the stone streets of Gjirokastër, and the wild nature of Theth.
+      </p>
+      <a class="btn" href="#">Explore More</a>
+    </div>
+
+    <div class="card">
+      <h2>Traditional Food</h2>
+      <p>
+        Try delicious Albanian dishes like byrek, tavë kosi, fërgesë, and fresh seafood along the coast.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Discover Albania | Built with GitHub Pages
+  </div>
 
 </body>
 </html>
